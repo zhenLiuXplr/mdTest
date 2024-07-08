@@ -28,8 +28,9 @@ Hsp90aa1	5752	8	1	0	0	2220	19931
 #rx, ry: the DNB coordinates after rotation, which makes the orientation of each section consistent.
 #umi_count: non-duplicated reads count.
 #cell_label: labeled cell_id by StereoCell method, while 0 stands for DNBs out of cell boundaries.
-#gene_area: the region id, and you can find its corresponding region name in "[regions-mouse*.tsv](https://example.com)" file.
+#gene_area: the region id, and you can find its corresponding region name in "regions-mouse*.tsv" file.
 ~~~
+[Download region description file](https://example.com)
 
 "[stereoseq.celltypeTransfer.2mice.all.tsv.gz](https://example.com)" file provides the cell type annotation of high-quality cells in stereoseq data.
 ~~~shell
