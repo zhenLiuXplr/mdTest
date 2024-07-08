@@ -1,8 +1,8 @@
 ## Download data
 
-Download slice 51/123 Stereo-seq data
+[Download slice 51/123 Stereo-seq data](https://example.com)
 
-Download all slices Stereo-seq data and snRNA-seq data
+[Download all slices Stereo-seq data and snRNA-seq data](https://example.com)
 
 ## Data Description
 
