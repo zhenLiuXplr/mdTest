@@ -7,15 +7,16 @@ Example of acknowledgement statement is included below: The dataset is provided 
 
 ## Download data
 
-Download slice 51/123
-Download all slices
+Download slice 51/123 Stereo-seq data
+
+Download all slices Stereo-seq data and snRNA-seq data
 
 ## Data Description
 
 ### spatial transcriptome
 In this dataset, the mouse brain was coronally sectioned from anterior to posterior. Stereo-seq libraries were constructed for each coronal section, and spatial transcriptomic sequencing was performed. The spatial locations of individual cells were determined using the StereoCell method (https://github.com/BGIResearch/StereoCell). This database employed a graph convolution network (GCN)-based method, known as Spatial-ID (https://www.nature.com/articles/s41467-022-35288-0), to annotate cell types defined from single-nucleus RNA sequencing data onto cells sequenced with Stereo-seq. This process involved transferring cell types from all 308 cell clusters to high-quality cells across 195 coronal sections (123 for mouse1 and 72 for mouse2), resulting in the creation of a high-resolution cell type annotation atlas of the mouse brain.
 
-"total_gene_T311*.txt" file provides the gene expression and spatial position for each stereoseq DNA Nanoball (DNB).
+"total_gene_T*.txt" file provides the gene expression and spatial position for each stereoseq DNA Nanoball (DNB) on each slice (section).
 ~~~shell
 #eg: 
 $head total_gene_T311_mouse_f001_2D_mouse1-20230119.txt
