@@ -38,7 +38,7 @@ Hsp90aa1	5752	8	1	0	0	2220	19931
 #gene_area: the region id, and you can find its corresponding region name in "regions-mouse*.tsv" file.
 ~~~
 
-"stereoseq.celltypeTransfer.2mice.all.tsv.gz" file provides the cell type annotation of high-quality cells in stereoseq data.****
+"stereoseq.celltypeTransfer.2mice.all.tsv.gz" file provides the cell type annotation of high-quality cells in stereoseq data.
 ~~~shell
 #eg:
 $gunzip -c stereoseq.celltypeTransfer.2mice.all.tsv.gz | head
