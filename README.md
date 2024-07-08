@@ -28,10 +28,10 @@ Hsp90aa1	5752	8	1	0	0	2220	19931
 #rx, ry: the DNB coordinates after rotation, which makes the orientation of each section consistent.
 #umi_count: non-duplicated reads count.
 #cell_label: labeled cell_id by StereoCell method, while 0 stands for DNBs out of cell boundaries.
-#gene_area: the region id, and you can find its corresponding region name in "regions-mouse*.tsv" file.
+#gene_area: the region id, and you can find its corresponding region name in "[regions-mouse*.tsv](https://example.com)" file.
 ~~~
 
-"stereoseq.celltypeTransfer.2mice.all.tsv.gz" file provides the cell type annotation of high-quality cells in stereoseq data.
+"[stereoseq.celltypeTransfer.2mice.all.tsv.gz](https://example.com)" file provides the cell type annotation of high-quality cells in stereoseq data.
 ~~~shell
 #eg:
 $gunzip -c stereoseq.celltypeTransfer.2mice.all.tsv.gz | head
@@ -51,7 +51,7 @@ mouse1	T167	57	OL_294	Oligodendrocytes	Oligodendrocytes	#A8E5ED
 #color: colors for plot.
 ~~~
 
-"section_id_used_in_paper.tsv" file provides the conversion of section ids. For the convenience of narration, the article changes the ID of the first section to 'T1' when describing the sections. Here, we provide the correspondence for this transformation. It's important to note that all section IDs recorded in this dataset are the original IDs. If you need to correspond them with the IDs mentioned in the article, please use this table.
+"[section_id_used_in_paper.tsv](https://example.com)" file provides the conversion of section ids. For the convenience of narration, the article changes the ID of the first section to 'T1' when describing the sections. Here, we provide the correspondence for this transformation. It's important to note that all section IDs recorded in this dataset are the original IDs. If you need to correspond them with the IDs mentioned in the article, please use this table.
 ~~~shell
 #eg:
 $head section_id_used_in_paper.tsv
