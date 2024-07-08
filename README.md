@@ -32,6 +32,7 @@ Hsp90aa1	5752	8	1	0	0	2220	19931
 ~~~
 [Download region description file](https://example.com)
 
+
 "[stereoseq.celltypeTransfer.2mice.all.tsv.gz](https://example.com)" file provides the cell type annotation of high-quality cells in stereoseq data.
 ~~~shell
 #eg:
@@ -52,6 +53,7 @@ mouse1	T167	57	OL_294	Oligodendrocytes	Oligodendrocytes	#A8E5ED
 #color: colors for plot.
 ~~~
 
+
 "[section_id_used_in_paper.tsv](https://example.com)" file provides the conversion of section ids. For the convenience of narration, the article changes the ID of the first section to 'T1' when describing the sections. Here, we provide the correspondence for this transformation. It's important to note that all section IDs recorded in this dataset are the original IDs. If you need to correspond them with the IDs mentioned in the article, please use this table.
 ~~~shell
 #eg:
@@ -69,6 +71,7 @@ T247	T9
 #section_id: original section ID we used in this whole dataset.
 #section_id_used_in_paper: section ID we used in the citated article.
 ~~~
+
 
 ### single nucleus transcriptome
 This dataset was generated using single-nucleus RNA sequencing technology. Samples were collected from various regions of the mouse brain, the olfactory bulb, cortex, hippocampus, cerebral nuclei, thalamus, hypothalamus, midbrain, pons, medulla, and cerebellum. Samples were dissected from male mice at 7 weeks. After filtering, we obtained a total of 378,287 high-quality nuclei. Further iterative clustering and classification resulted in 18 cell subclasses and 308 cell clusters. These 18 cell subclasses include telencephalon excitatory neurons, dentate gyrus granule neurons, telencephalon inhibitory neurons, olfactory bulb excitatory neurons, olfactory bulb inhibitory neurons, di-mesencephalon neurons, cholinergic/monoaminergic/peptidergic neurons, rhombencephalon neurons, cerebral nuclei neuroblasts, vascular and leptomeningeal cells, endothelial cells, astrocytes, ependymal cells, hypendymal cells, choroid plexus epithelial cells, microglia, oligodendrocytes, and oligodendrocyte precursor cells.
