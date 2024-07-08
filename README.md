@@ -28,7 +28,7 @@ Hsp90aa1	5752	8	1	0	0	2220	19931
 #rx, ry: the DNB coordinates after rotation, which makes the orientation of each section consistent.
 #umi_count: non-duplicated reads count.
 #cell_label: labeled cell_id by StereoCell method, while 0 stands for DNBs out of cell boundaries.
-#gene_area: the region id, and you can find its corresponding region name in "regions-mouse*.tsv" file.
+#gene_area: the region id, and you can find its corresponding region name in region description "regions-mouse*.tsv" file.
 ~~~
 [Download region description file](https://example.com)
 
