@@ -11,7 +11,6 @@ In this dataset, the mouse brain was coronally sectioned from anterior to poster
 
 "total_gene_T*.txt.gz" file provides the gene expression and spatial position for each stereoseq DNA Nanoball (DNB) on each slice (section).
 ~~~shell
-#"total_gene_T311*.txt" file provides the gene expression and spatial position for each stereoseq DNA Nanoball (DNB).
 #eg: 
 $less total_gene_T311_mouse_f001_2D_mouse1-20230119.txt.gz | head
 gene    x       y       umi_count       cell_label      gene_area       rx      ry
